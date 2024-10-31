@@ -321,6 +321,7 @@
              align-items: center;
      margin: 0 1rem;
      padding-top: 23px; 
+     text-decoration: none !important;
      /* position: relative;
      width: 128.71880000000002px;
      z-index: 1;
@@ -444,108 +445,6 @@
   top: 30px;
   border-radius: 16px;
 }
-/* 
-.childContainer {
-  flex: 1;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: lightblue;
-}
-
-.childContainer:first-child {
-  border-left: none;
-  border-radius: 16px 0 0 16px;
-}
-
-.childContainer:last-child{
-  border-right: none;
-  border-radius: 0 16px 16px 0;
-} */
 
 
 
-.emailContainer{
-  width: 75%;
-  height: 100%;
-
-  text-align: left;
-  display: flex;
-  /* justify-content: center;
-  align-items: center;  */
-  border-radius: 16px 16px 16px 16px;
-  margin-left: 10px;
-  flex-direction: column;  /* Align children in a row */
-}
-.searchBar {
-  width: 50%;
-  height: 6%;
-  display: flex;  /* Add flexbox */
-  justify-content: center;  /* Center horizontally */
-  align-items: center;  /* Center vertically */
-  flex-direction: row;  /* Align children in a row */
-  background-color: rgb(177, 183, 183);
-  border-radius: 20px;
-  position: absolute;
-}
-
-.emailsBox {
-  width: 100%;
-  height: 93%;
-  position: relative;
-  top: 7%;
-  background-color: rgb(201, 204, 204);
-  border-radius: 16px;
-}
-
-#searchIcon {
-  height: 24px;
-  width: 24px;
-  margin-left: 10px;  /* Adjust spacing */
-}
-
-#searchInput {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background-color: transparent;
-  border: none;
-  padding-left: 10px;  /* Add padding for better alignment */
-}
-
-#searchInput:active {
-  border-color: azure;
-}
-
-.labelContainer{
-  width:25%;
-  height: 100%;
-  background-color: rgb(178, 186, 186);
-  text-align: left;
-  display: flex;
-  border-radius: 16px 16px 16px 16px;
-  margin-right: 10px;
-  flex-direction: column;
-}
-#labelList{
-  
-}
-
-#labelTitle{
-  font-size: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  text-align: left;
-}
-
-
-#labelListContainer{
-  font-size: 10px;
-  margin-left: 15px;
-  text-align: left;
-
-}
