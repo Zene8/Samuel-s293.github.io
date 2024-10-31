@@ -1,9 +1,77 @@
-<html>
+<!DOCTYPE html>
+<html lanf="">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Dans page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" type="text/CSS" href="dansCSS.css">
     </head>
     <body>
-        <p>test</p>
+        <div class="container">
+        <h1>GAMING</h1>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Creativity
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Game development and some games themselves promote creativity to children and adults alike which is good for development
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Lifestyle
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Gaming has great effects on Lifestyle, it makes people much more sociable and promotes exercise of the mind.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Employment
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  The game development sector creates large amounts of revenue in many countries of the world. This means that it also provides employment to many people.
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="row row-cols-auto">
+          <div class="col">
+          <div class="card border-dark mb-3" style="width: 18rem;">
+            <img src="minecraft.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Best creative game</h5>
+              <h5 class="card-title">Minecraft</h5>
+              <p class="card-text">This game is a primary example of gaming promoting creativity</p>
+              <a href="https://www.minecraft.net/en-us" class="btn btn-primary">Download</a>
+            </div>
+          </div>
+          </div>
+          <div class="col">
+          <div class="card border-dark mb-3" style="width: 18rem;">
+            <img src="Portal2Cover.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Best puzzle game</h5>
+              <h5 class="card-title">Portal</h5>
+              <p class="card-text">This game is a classic example of problem solving mixed in with a fun and engaging atmosphere</p>
+              <a href="https://store.steampowered.com/app/620/Portal_2/" class="btn btn-primary">Download from steam</a>
+            </div>
+          </div>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
