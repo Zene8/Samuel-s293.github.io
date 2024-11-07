@@ -1,32 +1,57 @@
 
-      /* Remove the navbar's default margin-bottom and rounded borders */ 
-      .navbar {
-        margin-bottom: 0;
-        border-radius: 0;
-      }
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+margin-bottom: 0;
+border-radius: 0;
+}
 
-      /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-      .row.content {height: 450px}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
 
-      /* Set gray background color and 100% height */
-      .sidenav {
-        padding-top: 20px;
-        background-color: #f1f1f1 !important;
-        height: 100%;
-      }
+/* Set gray background color and 100% height */
+.sidenav {
+border-style: solid;
+padding-top: 20px;
+background-color: #cdc6c6 !important;
+height: 100%;
+}
 
-      /* Set black background color, white text and some padding */
-      footer {
-        background-color: #555;
-        color: white;
-        padding: 15px;
-      }
+/* Set black background color, white text and some padding */
+footer {
+background-color: #555;
+color: white;
+padding: 15px;
+}
 
-      /* On small screens, set height to 'auto' for sidenav and grid */
-      @media screen and (max-width: 767px) {
-        .sidenav {
-          height: auto;
-          padding: 15px;
-        }
-        .row.content {height:auto;} 
-      }
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+.sidenav {
+  height: auto;
+  padding: 15px;
+}
+.row.content {height:auto;} 
+}
+/* The hero image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: url("website_banner.jpeg");
+
+/* Set a specific height */
+height: 200px;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
