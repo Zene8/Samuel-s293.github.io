@@ -1,0 +1,90 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+  --nav-bg: rgb(226, 246, 255);
+  --body-bg: rgb(255, 255, 255);
+  /*===== Colores =====*/
+  --first-color: #3664F4;
+  --dark-color: #070D1F;
+  --dark-color-alt: #282B3A;
+  --white-color: #E6E7E9;
+  --content-height: calc(100% - calc(var(--header-height)));
+  /*===== Fuente y tipografia =====*/
+  --body-font: 'Arial', sans-serif;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+
+  /*===== z index =====*/
+  --z-fixed: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+    max-height: 50px !important;
+}
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+.header{
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    padding: 0 1rem;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    background-color: var(--nav-bg) !important;
+    z-index: 1000000000000;
+}
+.nav-item{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: var(--dark-color);
+}
+/* .nav-item.active {
+    background-color: #ffffff;
+    border-radius: 16px;
+    /* padding-bottom: 20px; */
+ */
+
+.card{
+    margin-top: 1rem !important;
+    padding: 10rem !important;
+}
+.navbar-toggler{
+    position:absolute;
+    left: 90%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.responsive-iframe {
+    transform: scale(0.5); /* Adjust scale to fit the container */
+    transform-origin: 0 0; /* Scale from the top-left corner */
+    width: 200%; /* Adjust based on scale */
+    height: 200%;
+}
+.custom-brand {
+    font-size: 1.5rem;  /* Increase font size */
+    font-weight: bold;  /* Make it bold */
+    margin-right: auto; /* Align it further to the left */
+}
+.responsive-iframe {
+    transform: scale(0.5); /* Adjust scale to fit the container */
+    transform-origin: 0 0; /* Scale from the top-left corner */
+    width: 200%; /* Adjust based on scale */
+    height: 200%;
+}
