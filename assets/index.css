@@ -33,9 +33,18 @@ html, body {
   height: 100%;
   font-family: Arial, sans-serif;
 }
-
+.header{
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    padding: 0 1rem;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .navbar{
     background-color: var(--nav-bg) !important;
+    z-index: 1000000000000;
 }
 .nav-item{
     margin-left: 1rem;
