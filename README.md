@@ -1,5 +1,5 @@
 # presentation
-- i really like the layout of your website
+- i really like the variation of layout you have used
 - most elements are missing css but i believe you're working on it
 
 # content
